@@ -1,19 +1,19 @@
 #!/bin/bash
 
-dwm_keybindings_file="$HOME/.config/suckless/dwm/keybindings.txt"
+dwm_keybindings_file="$HOME/.config/suckless/scripts/keybindings.txt"
 sxhkdrc_file="$HOME/.config/suckless/sxhkd/sxhkdrc"
 
 # Read DWM keybindings (first section)
 dwm_bindings=$(awk -F'\t' '
-    { printf "DWM  |%-30s|%-40s\n", $1, $2 }
+    { printf "CHADWM  |%-30s|%-40s\n", $1, $2 }
 ' "$dwm_keybindings_file")
 
 # Parse sxhkdrc keybindings (second section)
 sxhkd_bindings=$(awk '
-    /^[a-z]/ && last { 
-        printf "SXHKD|%-30s|%-40s\n", $0, last 
+    /^[a-z]/ && last {
+        printf "SXHKD|%-30s|%-40s\n", $0, last
     }
-    { last="" } 
+    { last="" }
     /^#/ { last=substr($0, 3) }' "$sxhkdrc_file")
 
 # Combine with DWM first

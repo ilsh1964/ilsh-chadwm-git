@@ -10,6 +10,11 @@
 super + F1
 	gtk-launch WebApp-2892
 
+
+# Help
+super + F2
+    /home/ilan/.config/suckless/scripts/help
+
 # C14
 super + F4
     gtk-launch WebApp-6751
@@ -23,6 +28,7 @@ super + F5
 # SUPER + Letter
 #################################################################
 #
+
 # Rofi
 super + d
     rofi -show drun
@@ -201,9 +207,12 @@ ctrl + shift + s
     /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/sec
 
 ctrl + shift + t
+    /home/ilan/.config/suckless/xdotool/md-table
+
+ctrl + shift + 1
     /home/ilan/.config/suckless/xdotool/lrm
 
-ctrl + shift + y
+ctrl + shift + 2
     /home/ilan/.config/suckless/xdotool/rlm
 
 
