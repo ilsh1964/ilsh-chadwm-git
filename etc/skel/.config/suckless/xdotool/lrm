@@ -1,0 +1,11 @@
+#!/bin/bash
+# Insert LRM character
+LAYOUT=$($HOME/.config/suckless/xdotool/xkblayout-state/xkblayout-state print " %s (%c)" |grep il |wc -l)
+if test $LAYOUT = "1"; then
+    $HOME/.config/suckless/xdotool/cl.sh
+    sleep 0.5
+    xdotool type $'\u200E'
+else
+    sleep 0.5
+    xdotool type $'\u200E'
+fi

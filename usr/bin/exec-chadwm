@@ -1,0 +1,20 @@
+#!/bin/sh
+
+cd ~
+
+# Check if ~/.config/suclkess exists
+if [ ! -d "$HOME/.config/suckless" ]; then
+    echo "Directory ~/.config/suckless does not exist. Copying from /etc/skel/.config/suckless..."
+
+    # Ensure the target directory exists
+    mkdir -p "$HOME/.config"
+
+    # Copy the contents from /etc/skel/.config/arco-chadwm to ~/.config/arco-chadwm
+    cp -r /etc/skel/.config/suckless "$HOME/.config/suckless"
+
+else
+    echo "Directory ~/.config/suckless already exists. Skipping copy."
+fi
+
+# Run the script
+~/.config/suckless/scripts/run.sh

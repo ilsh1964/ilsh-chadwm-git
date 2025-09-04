@@ -1,0 +1,10 @@
+super + Return	Launch Terminal
+super + shift + d	Run dmenu
+super + q	Close Window
+super + shift + r	Restart Chadwm
+super + b	Toggle Bar
+super + right	Focus Next Window
+super + left	Focus Previous Window
+super + l	Resize Window Right
+super + h	Resize Window Left
+super + shift + space	Toggle Floating

@@ -1,0 +1,11 @@
+#!/bin/bash
+DATE=$(date '+%Y-%m-%d')
+LAYOUT=$($HOME/.config/suckless/xdotool/xkblayout-state/xkblayout-state print " %s (%c)" |grep il |wc -l)
+if test $LAYOUT = "1"; then
+    $HOME/.config/suckless/xdotool/cl.sh
+    sleep 0.5
+    xdotool type $DATE
+else
+    sleep 0.5
+    xdotool type $DATE
+fi

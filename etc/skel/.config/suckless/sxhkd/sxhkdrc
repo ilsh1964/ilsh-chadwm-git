@@ -1,0 +1,232 @@
+#################################################################
+# KEYBOARD BINDINGS FOR ANY TWM
+#################################################################
+
+#################################################################
+# SUPER + FUNCTION KEYS
+#################################################################
+
+# Kan-11
+super + F1
+	gtk-launch WebApp-2892
+
+# C14
+super + F4
+    gtk-launch WebApp-6751
+
+# i24-Tv
+super + F5
+    gtk-launch WebApp-5617
+
+
+#################################################################
+# SUPER + Letter
+#################################################################
+#
+# Rofi
+super + d
+    rofi -show drun
+
+# Geany
+super + e
+    geany
+
+# Gimp
+super + g
+    gimp
+
+# Rofi
+super + r
+    rofi -show drun
+
+# Pavucontrol
+super + v
+    pavucontrol
+
+# archlinux-logout
+super + x
+    archlinux-logout
+
+# alacritty
+super + Return
+    alacritty
+
+# Xkill
+super + Escape
+    xkill
+
+
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+# Thunar
+super + shift + Return
+    /home/ilan/.config/suckless/xdotool/s3 && thunar
+
+# Dmenu
+super + shift + d
+	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+
+# Hebrew
+super + shift + h
+    alacritty -e "/home/ilan/.bin/heb.sh"
+
+# Reload sxhkd:
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+# Powermenu
+super + shift + x
+    edu-powermenu
+
+
+#################################################################
+# CONTROL + ALT KEYS
+#################################################################
+
+# Brave
+ctrl + alt + b
+    /home/ilan/.config/suckless/xdotool/s1 && brave
+
+# Calc
+ctrl + alt + c
+    galculator
+
+# Archlinux-tweak-tool
+ctrl + alt + e
+    archlinux-tweak-tool
+
+# Firefox
+ctrl + alt + f
+    /home/ilan/.config/suckless/xdotool/s1 && firefox
+
+# Behafucha
+ctrl + alt + h
+     /home/ilan/.bin/behafucha
+
+# Keepassxc
+ctrl + alt + k
+     keepassxc
+
+# Libreoffice
+ctrl + alt + l
+     /home/ilan/.config/suckless/xdotool/s5 && libreoffice
+
+# mnemosyne
+ctrl + alt + m
+     mnemosyne
+
+#Picom Toggle
+ctrl + alt + o
+    ~/.config/suckless/scripts/picom-toggle.sh
+
+# Pilatis Timer
+ctrl + alt + p
+     alacritty -e "/home/ilan/.bin/start_timer.sh"
+
+# Rhytmbox
+ctrl + alt + r
+     /home/ilan/.config/suckless/xdotool/s6 && rhythmbox
+
+# Simple-scan
+ctrl + alt + s
+     /home/ilan/.config/suckless/xdotool/s5 && simple-scan
+
+# alacritty
+ctrl + alt + t
+    alacritty
+
+# Virtualbox
+ctrl + alt + v
+    /home/ilan/.config/suckless/xdotool/s7 && virtualbox
+
+
+#################################################################
+# ALT + ... KEYS
+#################################################################
+
+# Variety wallpaper favorite
+alt + f
+    variety -f
+
+# Variety wallpaper next
+alt + n
+    variety -n
+
+# Variety wallpaper previous
+alt + p
+    variety -p
+
+# Variety wallpaper trash
+alt + t
+    variety -t
+
+
+#################################################################
+# CONTROL + SHIFT KEYS
+#################################################################
+
+ctrl + shift + b
+    /home/ilan/.config/suckless/xdotool/br
+
+ctrl + shift + d
+    /home/ilan/.config/suckless/xdotool/ts
+
+ctrl + shift + e
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/email
+
+ctrl + shift + f
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/fname
+
+ctrl + shift + i
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/id
+
+ctrl + shift + h
+    alacritty -e "/home/ilan/.bin/heb.sh"
+
+ctrl + shift + l
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/tel
+
+ctrl + shift + k
+    /home/ilan/.config/suckless/xdotool/link
+
+ctrl + shift + m
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/proton
+
+ctrl + shift + n
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/nc
+
+ctrl + shift + s
+    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/sec
+
+ctrl + shift + t
+    /home/ilan/.config/suckless/xdotool/lrm
+
+ctrl + shift + y
+    /home/ilan/.config/suckless/xdotool/rlm
+
+
+#################################################################
+#     SCREENSHOTS
+#################################################################
+
+# Scrot
+Print
+    scrot 'Pscr-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+
+# screeenshooter
+ctrl + Print
+     xfce4-screenshooter
+
+
+#################################################################
+#     FUNCTION KEYS
+#################################################################
+
+# xfce4-terminal dropdown
+F12
+    xfce4-terminal --drop-down
+
+
+
