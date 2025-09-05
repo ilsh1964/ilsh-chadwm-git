@@ -6,7 +6,7 @@ function run {
     $@&
   fi
 }
-
+run "alacritty -e xrandr --output DP1 --mode 1920x1080"
 run "nm-applet"
 run "pamac-tray"
 run "variety -n"

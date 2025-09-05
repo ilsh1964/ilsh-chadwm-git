@@ -41,6 +41,10 @@ super + e
 super + g
     gimp
 
+# Thunar
+super + t
+    thunar
+
 # Pavucontrol
 super + v
     pavucontrol
@@ -63,7 +67,12 @@ super + Escape
 #################################################################
 
 # Thunar
-    super + shift + Return
+super + shift + Return
+    thunar
+
+# Set resolution to 1920x1080
+super + shift + d
+    alacritty -e xrandr --output DP1 --mode 1920x1080
 
 # Hebrew
 super + shift + h
