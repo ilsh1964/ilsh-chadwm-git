@@ -10,7 +10,8 @@ super + shift + j	Swap Window
 super + shift + k	Swap Window
 super + control + F1	[]  - Tiling Mode
 super + control + F2	@   - Spiral Mode
-super + control + F3	TTT - Bstack
-super + control + F4	=== - Bstack Horizontal
-super + control + F5	HHH - Grid
-super + control + F6	|M| - Centered Master
+super + control + F3	TTT - Bstack Mode
+super + control + F4	=== - BstackHorz Mode 
+super + control + F5	HHH - Grid Mode
+super + control + F6	|M| - Centered Master Mode
+super + control + P Change Between Layouts Mode
