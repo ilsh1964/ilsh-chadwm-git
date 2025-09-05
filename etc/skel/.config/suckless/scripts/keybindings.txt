@@ -1,5 +1,3 @@
-super + Return	Launch Terminal
-super + shift + d	Run dmenu
 super + q	Close Window
 super + shift + r	Restart Chadwm
 super + b	Toggle Bar
@@ -8,3 +6,11 @@ super + left	Focus Previous Window
 super + l	Resize Window Right
 super + h	Resize Window Left
 super + shift + space	Toggle Floating
+super + shift + j	Swap Window
+super + shift + k	Swap Window
+super + control + F1	[]  - Tiling Mode
+super + control + F2	@   - Spiral Mode
+super + control + F3	TTT - Bstack
+super + control + F4	=== - Bstack Horizontal
+super + control + F5	HHH - Grid
+super + control + F6	|M| - Centered Master

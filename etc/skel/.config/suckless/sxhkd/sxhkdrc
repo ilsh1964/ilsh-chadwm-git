@@ -41,10 +41,6 @@ super + e
 super + g
     gimp
 
-# Rofi
-super + r
-    rofi -show drun
-
 # Pavucontrol
 super + v
     pavucontrol
@@ -67,24 +63,15 @@ super + Escape
 #################################################################
 
 # Thunar
-super + shift + Return
-    /home/ilan/.config/suckless/xdotool/s3 && thunar
-
-# Dmenu
-super + shift + d
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+    super + shift + Return
 
 # Hebrew
 super + shift + h
     alacritty -e "/home/ilan/.bin/heb.sh"
 
-# Reload sxhkd:
+# Reload sxhkd
 super + shift + s
 	pkill -USR1 -x sxhkd
-
-# Powermenu
-super + shift + x
-    edu-powermenu
 
 
 #################################################################
