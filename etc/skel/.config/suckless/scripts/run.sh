@@ -8,7 +8,7 @@ function run {
 }
 run "alacritty -e xrandr --output DP1 --mode 1920x1080"
 run "nm-applet"
-run "pamac-tray"
+# run "pamac-tray"
 run "variety -n"
 run "xfce4-power-manager"
 run "xfce4-clipman"
