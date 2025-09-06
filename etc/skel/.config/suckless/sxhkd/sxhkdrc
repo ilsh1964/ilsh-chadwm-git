@@ -13,7 +13,7 @@ super + F1
 
 # Help
 super + F2
-    /home/ilan/.config/suckless/scripts/help
+    ~/.config/suckless/scripts/help
 
 # C14
 super + F4
@@ -41,9 +41,14 @@ super + e
 super + g
     gimp
 
+# Rhythmbox
+super + r
+    ~/.config/suckless/xdotool/s6 && rhythmbox
+
+
 # Thunar
 super + t
-    /home/ilan/.config/suckless/xdotool/s9 && thunderbird
+    ~/.config/suckless/xdotool/s9 && thunderbird
 
 # Pavucontrol
 super + v
@@ -68,7 +73,7 @@ super + Escape
 
 # Thunar
 super + shift + Return
-    /home/ilan/.config/suckless/xdotool/s3 && thunar
+    ~/.config/suckless/xdotool/s3 && thunar
 
 # Set resolution to 1920x1080
 super + shift + d
@@ -89,7 +94,7 @@ super + shift + s
 
 # Brave
 ctrl + alt + b
-    /home/ilan/.config/suckless/xdotool/s1 && brave
+    ~/.config/suckless/xdotool/s1 && brave
 
 # Calc
 ctrl + alt + c
@@ -101,11 +106,11 @@ ctrl + alt + e
 
 # Firefox
 ctrl + alt + f
-    /home/ilan/.config/suckless/xdotool/s1 && firefox
+    ~/.config/suckless/xdotool/s1 && firefox
 
 # Behafucha
 ctrl + alt + h
-     /home/ilan/.bin/behafucha
+    ~/.bin/behafucha
 
 # Keepassxc
 ctrl + alt + k
@@ -113,7 +118,7 @@ ctrl + alt + k
 
 # Libreoffice
 ctrl + alt + l
-     /home/ilan/.config/suckless/xdotool/s5 && libreoffice
+     ~/.config/suckless/xdotool/s5 && libreoffice
 
 # mnemosyne
 ctrl + alt + m
@@ -127,13 +132,13 @@ ctrl + alt + o
 ctrl + alt + p
      alacritty -e "/home/ilan/.bin/start_timer.sh"
 
-# Rhytmbox
+# Rhythmbox
 ctrl + alt + r
-     /home/ilan/.config/suckless/xdotool/s6 && rhythmbox
+     ~/.config/suckless/xdotool/s6 && rhythmbox
 
 # Simple-scan
 ctrl + alt + s
-     /home/ilan/.config/suckless/xdotool/s5 && simple-scan
+     ~/.config/suckless/xdotool/s5 && simple-scan
 
 # alacritty
 ctrl + alt + t
@@ -141,7 +146,7 @@ ctrl + alt + t
 
 # Virtualbox
 ctrl + alt + v
-    /home/ilan/.config/suckless/xdotool/s7 && virtualbox
+    ~/.config/suckless/xdotool/s7 && virtualbox
 
 
 #################################################################
@@ -170,46 +175,46 @@ alt + t
 #################################################################
 
 ctrl + shift + b
-    /home/ilan/.config/suckless/xdotool/br
+    ~/.config/suckless/xdotool/br
 
 ctrl + shift + d
-    /home/ilan/.config/suckless/xdotool/ts
+    ~/.config/suckless/xdotool/ts
 
 ctrl + shift + e
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/email
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/email
 
 ctrl + shift + f
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/fname
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/fname
 
 ctrl + shift + i
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/id
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/id
 
 ctrl + shift + h
     alacritty -e "/home/ilan/.bin/heb.sh"
 
 ctrl + shift + l
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/tel
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/tel
 
 ctrl + shift + k
-    /home/ilan/.config/suckless/xdotool/link
+    ~/.config/suckless/xdotool/link
 
 ctrl + shift + m
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/proton
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/proton
 
 ctrl + shift + n
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/nc
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/nc
 
 ctrl + shift + s
-    /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/sec
+    ~/DATA/SynologyDrive/SOFTWARE/Linux/Xdotool/sec
 
 ctrl + shift + t
-    /home/ilan/.config/suckless/xdotool/md-table
+    ~/.config/suckless/xdotool/md-table
 
 ctrl + shift + 1
-    /home/ilan/.config/suckless/xdotool/lrm
+    ~/.config/suckless/xdotool/lrm
 
 ctrl + shift + 2
-    /home/ilan/.config/suckless/xdotool/rlm
+    ~/.config/suckless/xdotool/rlm
 
 
 #################################################################
