@@ -68,7 +68,7 @@ super + Escape
 
 # Thunar
 super + shift + Return
-    thunar
+    /home/ilan/.config/suckless/xdotool/s3 && thunar
 
 # Set resolution to 1920x1080
 super + shift + d
