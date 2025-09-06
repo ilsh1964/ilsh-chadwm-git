@@ -43,7 +43,7 @@ super + g
 
 # Thunar
 super + t
-    thunar
+    /home/ilan/.config/suckless/xdotool/s9 && thunderbird
 
 # Pavucontrol
 super + v
