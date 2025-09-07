@@ -39,7 +39,7 @@ super + e
 
 # Gimp
 super + g
-    gimp
+   ~/.config/suckless/xdotool/s3 && gimp
 
 # Monitor
 super + m
