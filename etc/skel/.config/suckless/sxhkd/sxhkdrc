@@ -41,6 +41,10 @@ super + e
 super + g
     gimp
 
+# Monitor
+super + m
+    alacritty -e xset dpms force off
+
 # Rhythmbox
 super + r
     ~/.config/suckless/xdotool/s6 && rhythmbox
