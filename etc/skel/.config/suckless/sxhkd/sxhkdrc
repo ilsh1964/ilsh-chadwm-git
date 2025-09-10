@@ -220,6 +220,11 @@ ctrl + shift + 1
 ctrl + shift + 2
     ~/.config/suckless/xdotool/rlm
 
+ctrl + shift + F1
+    alacritty -e amixer set Master 5%-
+
+ctrl + shift + F2
+    alacritty -e amixer set Master 5%+
 
 #################################################################
 #     SCREENSHOTS
