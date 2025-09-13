@@ -8,7 +8,7 @@
 
 # Kan-11
 super + F1
-	gtk-launch WebApp-2892
+	~/.config/suckless/xdotool/s8 && gtk-launch WebApp-2892
 
 
 # Help
@@ -17,11 +17,11 @@ super + F2
 
 # C14
 super + F4
-    gtk-launch WebApp-6751
+    ~/.config/suckless/xdotool/s8 && gtk-launch WebApp-6751
 
 # i24-Tv
 super + F5
-    gtk-launch WebApp-5617
+    ~/.config/suckless/xdotool/s8 && gtk-launch WebApp-5617
 
 
 #################################################################
@@ -35,11 +35,11 @@ super + d
 
 # Geany
 super + e
-    geany
+    ~/.config/suckless/xdotool/s2 &&geany
 
 # Gimp
 super + g
-   ~/.config/suckless/xdotool/s3 && gimp
+   ~/.config/suckless/xdotool/s4 && gimp
 
 # Monitor
 super + m
@@ -64,7 +64,7 @@ super + x
 
 # alacritty
 super + Return
-    alacritty
+    ~/.config/suckless/xdotool/s2 && alacritty
 
 # Xkill
 super + Escape
@@ -106,7 +106,7 @@ ctrl + alt + c
 
 # Archlinux-tweak-tool
 ctrl + alt + e
-    archlinux-tweak-tool
+    ~/.config/suckless/xdotool/s9 && archlinux-tweak-tool
 
 # Firefox
 ctrl + alt + f
@@ -118,15 +118,15 @@ ctrl + alt + h
 
 # Keepassxc
 ctrl + alt + k
-     keepassxc
+    ~/.config/suckless/xdotool/s1 &&  keepassxc
 
 # Libreoffice
 ctrl + alt + l
-     ~/.config/suckless/xdotool/s5 && libreoffice
+    ~/.config/suckless/xdotool/s5 && libreoffice
 
 # mnemosyne
 ctrl + alt + m
-     mnemosyne
+     ~/.config/suckless/xdotool/s9 && mnemosyne
 
 #Picom Toggle
 ctrl + alt + o
@@ -134,7 +134,7 @@ ctrl + alt + o
 
 # Pilatis Timer
 ctrl + alt + p
-     alacritty -e "/home/ilan/.bin/start_timer.sh"
+     ~/.config/suckless/xdotool/s9 && alacritty -e "/home/ilan/.bin/start_timer.sh"
 
 # Rhythmbox
 ctrl + alt + r
@@ -146,7 +146,7 @@ ctrl + alt + s
 
 # alacritty
 ctrl + alt + t
-    alacritty
+    ~/.config/suckless/xdotool/s2 && alacritty
 
 # Virtualbox
 ctrl + alt + v

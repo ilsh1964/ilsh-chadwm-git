@@ -83,7 +83,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
-static char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "OTHER" };
 //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
@@ -119,13 +119,29 @@ static const Rule rules[] = {
     /* xprop(1):
      *	WM_CLASS(STRING) = instance, class
      *	WM_NAME(STRING) = title
+     *  Tag 1:   1 << 0
+        Tag 2:   1 << 1
+        Tag 3:   1 << 2
+        Tag 4:   1 << 3
+        Tag 5:   1 << 4
+        Tag 6:   1 << 5
+        Tag 7:   1 << 6
+        Tag 8:   1 << 7
+        Tag 9:   1 << 8
+     *
      */
     /* class      instance    title       tags mask     iscentered   isfloating   monitor */
-    { "Gimp",     NULL,       NULL,       0,            0,           0,           -1 },
-    { "Firefox",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
-    { "mintstick", NULL,      NULL,       0,            0,           0,           -1 },
-    { "Galculator", NULL,      NULL,       0,            0,           1,           -1 },
-    { "Nlogout",  NULL,       NULL,       0,            1,           1,           -1 },
+    { "firefox",              NULL,       NULL,       1 << 0,       0,           0,           -1 },
+    { "Brave",                NULL,       NULL,       1 << 0,       0,           0,           -1 },
+    { "KeePassXC",            NULL,       NULL,       1 << 0,       0,           0,           -1 },
+    { "Alacritty",            NULL,       NULL,       1 << 1,       0,           0,           -1 },
+    { "Gimp",                 NULL,       NULL,       1 << 3,       0,           0,           -1 },
+    { "libreoffice",          NULL,       NULL,       1 << 4,       0,           0,           -1 },
+    { "libreoffice-writer",   NULL,       NULL,       1 << 4,       0,           0,           -1 },
+    { "mintstick",            NULL,       NULL,       1 << 8,       0,           0,           -1 },
+    { "Mnemosyne",            NULL,       NULL,       1 << 8,       0,           0,           -1 },
+    { "Galculator",           NULL,       NULL,       0,            0,           1,           -1 },
+    { "Nlogout",              NULL,       NULL,       0,            1,           1,           -1 },
 };
 
 /* layout(s) */
