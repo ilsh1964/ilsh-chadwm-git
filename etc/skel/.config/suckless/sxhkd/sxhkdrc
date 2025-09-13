@@ -45,12 +45,12 @@ super + g
 super + m
     alacritty -e xset dpms force off
 
-# Rhythmbox
+# Rofi
 super + r
-    ~/.config/suckless/xdotool/s6 && rhythmbox
+    rofi -show drun
 
 
-# Thunar
+# Thunderbird
 super + t
     ~/.config/suckless/xdotool/s9 && thunderbird
 
