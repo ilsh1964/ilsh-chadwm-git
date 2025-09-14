@@ -128,7 +128,7 @@ ctrl + alt + l
 ctrl + alt + m
      ~/.config/suckless/xdotool/s9 && mnemosyne
 
-#Picom Toggle
+# Picom Toggle
 ctrl + alt + o
     ~/.config/suckless/scripts/picom-toggle.sh
 

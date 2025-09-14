@@ -83,7 +83,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
-static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "OTHER" };
+static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "MAIL","OTHER" };
 //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
@@ -138,8 +138,9 @@ static const Rule rules[] = {
     { "Gimp",                 NULL,       NULL,       1 << 3,       0,           0,           -1 },
     { "libreoffice",          NULL,       NULL,       1 << 4,       0,           0,           -1 },
     { "libreoffice-writer",   NULL,       NULL,       1 << 4,       0,           0,           -1 },
-    { "mintstick",            NULL,       NULL,       1 << 8,       0,           0,           -1 },
-    { "Mnemosyne",            NULL,       NULL,       1 << 8,       0,           0,           -1 },
+    { "thunderbird",          NULL,       NULL,       1 << 8,       0,           0,           -1 },
+    { "mintstick",            NULL,       NULL,       1 << 9,       0,           0,           -1 },
+    { "Mnemosyne",            NULL,       NULL,       1 << 9,       0,           0,           -1 },
     { "Galculator",           NULL,       NULL,       0,            0,           1,           -1 },
     { "Nlogout",              NULL,       NULL,       0,            1,           1,           -1 },
 };
