@@ -7,7 +7,7 @@ function run {
   fi
 }
 # run "alacritty -e xrandr --output DP1 --mode 1920x1080"
-/home/ilan/.screenlayout/nuc-resolution.sh
+~/.config/suckless/scripts/nuc-resolution.sh
 
 run "nm-applet"
 run "variety -n"
