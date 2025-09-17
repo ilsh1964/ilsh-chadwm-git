@@ -23,7 +23,7 @@ run "numlockx on"
 #  Personal Apps
 run sxhkd -c ~/.config/suckless/sxhkd/sxhkdrc &
 run /usr/bin/synology-drive &
-run /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/AppImage/Nextcloud-3.17.1-x86_64.AppImage &
+run /home/ilan/DATA/SynologyDrive/SOFTWARE/Linux/AppImage/Nextcloud-3.17.2-x86_64.AppImage &
 run /home/ilan/.bin/keyboard_tray.py &
 run redshift-gtk -l 31.046051:34.851612 &
 run picom -b  --config ~/.config/suckless/picom/picom.conf &
