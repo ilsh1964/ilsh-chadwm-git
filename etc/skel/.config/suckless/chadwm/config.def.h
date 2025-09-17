@@ -83,7 +83,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
-static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "MAIL","OTHER" };
+static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "MAIL", "OTHER" };
 //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
@@ -102,7 +102,6 @@ static const Launcher launchers[] = {
     /* command     name to display */
 
     { firefox,       "" },
-    { brave,         "" },
     { mintstick,     "虜" },
 };
 
