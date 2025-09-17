@@ -232,7 +232,7 @@ ctrl + shift + F2
 
 # Scrot
 Print
-    scrot 'Pscr-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot '/home/ilan/Pictures/PSCR-%Y-%m-%d-%s.jpg'
 
 # screeenshooter
 ctrl + Print
