@@ -35,7 +35,7 @@ super + d
 
 # Geany
 super + e
-    ~/.config/suckless/xdotool/s2 &&geany
+    ~/.config/suckless/xdotool/s2 && geany
 
 # Gimp
 super + g
@@ -106,7 +106,7 @@ ctrl + alt + c
 
 # Archlinux-tweak-tool
 ctrl + alt + e
-    ~/.config/suckless/xdotool/s9 && archlinux-tweak-tool
+    ~/.config/suckless/xdotool/s7 && archlinux-tweak-tool
 
 # Firefox
 ctrl + alt + f
@@ -126,7 +126,7 @@ ctrl + alt + l
 
 # mnemosyne
 ctrl + alt + m
-     ~/.config/suckless/xdotool/s9 && mnemosyne
+     ~/.config/suckless/xdotool/s5 && mnemosyne
 
 # Picom Toggle
 ctrl + alt + o
@@ -134,7 +134,7 @@ ctrl + alt + o
 
 # Pilatis Timer
 ctrl + alt + p
-     ~/.config/suckless/xdotool/s9 && alacritty -e "/home/ilan/.bin/start_timer.sh"
+     ~/.config/suckless/xdotool/s2 && alacritty -e "/home/ilan/.bin/start_timer.sh"
 
 # Rhythmbox
 ctrl + alt + r

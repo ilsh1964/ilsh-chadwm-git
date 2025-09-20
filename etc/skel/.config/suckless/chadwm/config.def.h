@@ -83,7 +83,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
-static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "MAIL", "OTHER" };
+static char *tags[] = { "WEB", "TERM", "FM", "GIMP", "LIBRE", "MUSIC", "VM", "TV", "MAIL" };
 //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
 //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
@@ -138,14 +138,14 @@ static const Rule rules[] = {
     { "libreoffice",          NULL,       NULL,       1 << 4,       0,           0,           -1 },
     { "libreoffice-writer",   NULL,       NULL,       1 << 4,       0,           0,           -1 },
     { "thunderbird",          NULL,       NULL,       1 << 8,       0,           0,           -1 },
-    { "mintstick",            NULL,       NULL,       1 << 9,       0,           0,           -1 },
-    { "Mnemosyne",            NULL,       NULL,       1 << 9,       0,           0,           -1 },
+    { "mintstick",            NULL,       NULL,       1 << 6,       0,           0,           -1 },
+    { "Mnemosyne",            NULL,       NULL,       1 << 4,       0,           0,           -1 },
     { "Galculator",           NULL,       NULL,       0,            0,           1,           -1 },
     { "Nlogout",              NULL,       NULL,       0,            1,           1,           -1 },
 };
 
 /* layout(s) */
-static const float mfact     = 0.50; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
